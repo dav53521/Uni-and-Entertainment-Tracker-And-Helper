@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "test:unit": "vitest",
     "build-only": "vite build",
-    "type-check": "vue-tsc --build --force"
+    "type-check": "vue-tsc --build --force",
+    "test": "vitest"
   },
   "dependencies": {
     "vue": "^3.3.11",
