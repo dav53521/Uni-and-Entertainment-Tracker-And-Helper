@@ -10,6 +10,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/assignments" class="assignments-routelink">Assignments</RouterLink>
         <RouterLink to="/subjects" class="subjects-routelink">Subjects</RouterLink>
         <RouterLink to="/course" class="course-routelink">Course</RouterLink>
+        <RouterLink to="/entertainment" class="entertainment-routelink">Entertainment</RouterLink>
       </nav>
     </div>
   </header>
@@ -43,5 +44,15 @@ import { RouterLink, RouterView } from 'vue-router'
   .course-routelink {
     position: relative;
     left: 10px;
+  }
+
+  nav {
+    margin: 0;
+    padding: 0;
+  }
+
+  .entertainment-routelink {
+    position: relative;
+    left: 20px;
   }
 </style>
