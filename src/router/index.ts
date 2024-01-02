@@ -36,6 +36,26 @@ const router = createRouter({
       path: '/SubjectDetails',
       name: 'subject-details',
       component: () => import('../views/SubjectDetails.vue')
+    },
+    {
+      path: '/Books',
+      name: 'books',
+      component: () => import('../views/Books.vue')
+    }, 
+    {
+      path: '/Games',
+      name: 'Games',
+      component: () => import('../views/Games.vue')
+    },
+    {
+      path: '/Music',
+      name: 'Music',
+      component: () => import('../views/Music.vue')
+    },
+    {
+      path: '/Shows',
+      name: 'Shows',
+      component: () => import('../views/Shows.vue')
     }
   ]
 })
