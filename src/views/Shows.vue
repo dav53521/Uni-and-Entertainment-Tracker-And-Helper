@@ -1,5 +1,5 @@
 <template>
-    <h1>this is the shows page</h1> 
+    <h1 class="Shows-Header">Shows</h1> 
 </template>
 
 <style scoped>
