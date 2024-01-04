@@ -1,5 +1,5 @@
 <template>
-    <h1>This is the Subject Details page</h1>
+    <h1 class="Subject-Details-Header">Subjects</h1>
 </template>
 
 <style scoped>

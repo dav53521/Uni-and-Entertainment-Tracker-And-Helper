@@ -1,5 +1,5 @@
 <template>
-    <h1>this is the book page</h1> 
+    <h1 class="Books-Header">Books</h1> 
 </template>
 
 <style scoped>

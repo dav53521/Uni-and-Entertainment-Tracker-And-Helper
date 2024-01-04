@@ -1,5 +1,5 @@
 <template>
-    <h1>this is the game page</h1> 
+    <h1 class="Games-Header">Games</h1> 
 </template>
 
 <style scoped>

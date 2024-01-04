@@ -1,5 +1,5 @@
 <template>
-    <h1>This is the course page</h1>
+    <h1 class="Course-Header">Course</h1>
 </template>
 
 <style>

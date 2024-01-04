@@ -1,5 +1,5 @@
 <template>
-    <h1>this is the music page</h1> 
+    <h1 class="Music-Header">Music</h1> 
 </template>
 
 <style scoped>

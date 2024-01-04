@@ -1,6 +1,6 @@
 <template>
     <main>
-      <h1>This is the homepage</h1>
+      <h1 class="Home-Header">Home</h1>
     </main>
   </template>
   
