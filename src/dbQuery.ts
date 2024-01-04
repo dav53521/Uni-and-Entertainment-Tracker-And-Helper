@@ -1,6 +1,6 @@
 import { Client } from "pg"
 
-export class dbConnectionAndQuery {
+export default class dbConnectionAndQuery {
     client: Client
 
     constructor(private databaseToUse: string, private username: string, private userPassword: string) {
@@ -14,6 +14,17 @@ export class dbConnectionAndQuery {
     }
 
     async queryDatabase(tableToUse: string, condition: string, dataToFind: string) {
+        this.client.connect()
+
+
+        this.client.end()
+
+        this.client.on('error', (e) => {
+            alert('An exception has occured when trying to query the database')
+            console.log("Error type" + e.name)
+            console.log("Error message" + e.message)
+            console.log("Stack trace" + e.stack)
+        })
     }
 
     async insertIntoDatabase(tableToUse: string, dataToInsert: string) {
